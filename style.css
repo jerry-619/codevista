@@ -1,0 +1,203 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    filter: brightness(200%);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+
+a.nav-link {
+    font-size: 2rem;
+    color: black;
+}
+
+.cardBody {
+    margin: 20px auto;
+}
+
+.checkOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background: #0056b3;
+}
+
+.cardText {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.cardText p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem;
+}
+
+.btn-group  {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.btn-check {
+    position: absolute;
+    pointer-events: none;
+}
+
+.btn-group input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #ffff;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+
+.age {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.ageNum {
+    width: 80px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.calculate, .clear {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculate:hover, .clear:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: .7rem 1rem;
+}
+
+.result p {
+    font-size: 1.2rem;
+}
+
+#result {
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: #007bff;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: .5rem 1.3rem;
+    border-radius: 4rem;
+    margin-bottom: 1.3rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e9ecef;
+}
+
+.footericons a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 .4rem;
+    padding: 0 .4rem;
+    transition: .3s ease-in-out;
+    color: #000;
+}
+
+.footericons p{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+.login-btn {
+   display: none;
+ }
+}
