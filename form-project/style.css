@@ -10,7 +10,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: url("/form-project/bg.jpg");
+    background: url("https://github.com/jerry-619/codevista/blob/main/form-project/bg.jpg?raw=true");
     background-position: bottom center;
     background-size: cover;
     animation: color 8s ease-in-out infinite;
