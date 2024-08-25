@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Final-Project</title>
+</head>
+
+<body>
+    <nav class="nv navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ThunderCraft</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="flex-grow: 0;  padding-right: 10px; font-family: poppins;"
+                class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul style="gap: 30px;" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#testi">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="product-card">
+        <div id="images" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/bike3.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bike4.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bike5.jpeg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bike8.jpeg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bike7.jpeg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/bike5.jpg" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+
+        <div class="details">
+            <h2>Thunder 350X</h2>
+            <h3>₹ 2,15,000</h3>
+            <p>The Royal Enfield Thunder 350x brings the classic Thunderbird's spirit to life with a refined,
+                modern touch. Powered by a robust 350cc engine, this bike offers a seamless blend of style,
+                comfort, and performance. Whether you're navigating city streets or venturing off the beaten
+                path, the Thunder 350x ensures a ride that’s both thrilling and reliable.</p>
+            <button class="btn btn-primary">Add to Cart</button>
+
+        </div>
+
+    </section>
+
+    <section id="pdetails">
+        <div class="about">
+            <h2>Key Features</h2>
+            <p>
+                The Thunder 350x makes a return to what roadsters were always meant to be:
+                kinetic, intutive and eager to play right across the power band. Stipped of
+                all superfluity, this motorcycle has been precisely enginereed to deliver pure,
+                primal fun
+            </p>
+            <div class="table">
+                <table style="border-collapse: separate;">
+                    <tbody>
+                        <tr>
+                            <th>Tags</th>
+                            <th>Details</th>
+                        </tr>
+                        <tr>
+                            <td>Engine</td>
+                            <td>350cc, Single-cylinder, Air-cooled</td>
+                        </tr>
+                        <tr>
+                            <td>Max Power</td>
+                            <td>20.07 PS @ 5250 rpm</td>
+                        </tr>
+                        <tr>
+                            <td>Torque</td>
+                            <td>28 Nm @ 4000 rpm</td>
+                        </tr>
+                        <tr>
+                            <td>Fuel Capacity</td>
+                            <td>20 Liters</td>
+                        </tr>
+                        <tr>
+                            <td>Breaking System</td>
+                            <td>Dual-Channel ABS for enhanced safety</td>
+                        </tr>
+                        <tr>
+                            <td>Transmission</td>
+                            <td>5-speed gearbox</td>
+                        </tr>
+                        <tr>
+                            <td>Color Options</td>
+                            <td>Jet Black, Metallic Red, Matte Blue</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="video">
+            <video src="assets/video/video1.mp4" controls loop></video>
+        </div>
+    </section>
+
+    <section id="testi">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 style="font-family: rock; font-size: 3rem;" class="fw-lighter mb-4">Testimonials</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card">
+                        <div class="card-body py-4 mt-2">
+                            <h5 class="font-weight-bold">Smooth Performance Unmatched Comfort</h5>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm text-info"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                The <strong> Thunder 350x </strong> is a masterpiece! It offers a smooth ride with a
+                                powerful engine.
+                                The comfort level is beyond expectations, making every journey enjoyable.
+                            </p>
+                            <h6 class="font-weight-bold my-3">— Rohit Sharma, Bangalore</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card">
+                        <div class="card-body py-4 mt-2">
+                            <h5 class="font-weight-bold">A Head-Turner on the Roads</h5>
+
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star fa-sm text-info"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                I’ve been riding the <strong> Thunder 350x </strong> for months now,
+                                and it never fails to turn heads. The build quality is top-notch,
+                                and the attention to detail is impressive. This bike is a perfect blend of style and
+                                performance.
+                            </p>
+                            <h6 class="font-weight-bold my-3">— Amit Khanna, Delhi</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-0">
+                    <div class="card">
+                        <div class="card-body py-4 mt-2">
+                            <h5 class="font-weight-bold">Classic Charm, Modern Features</h5>
+
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-info"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star fa-sm text-info"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                Thunder 350X combines the classic Royal Enfield charm with modern features.
+                                It’s the ideal bike for anyone who appreciates both aesthetics and functionality.
+                                I couldn’t be happier with my purchase!
+                            </p>
+                            <h6 class="font-weight-bold my-3">— Sneha Mehra, Pune</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <setcion id="faq">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 style="font-family: rock; font-size: 3rem;" class="fw-lighter mb-4">F A Q</h3>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the fuel efficiency of the Thunder 350x?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The <strong> Thunder 350x </strong> offers an impressive fuel efficiency of approximately
+                            35-40 km/l,
+                            depending on riding conditions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Does the Thunder 350x come with ABS?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, the <strong> Thunder 350x </strong> is equipped with dual-channel ABS, providing
+                            enhanced safety and control on all types of terrains.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are the color options available for the Thunder 350x?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The <strong> Thunder 350x </strong> is available in three stunning color options:
+                            Jet Black, Metallic Red, and Matte Blue.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Is there a warranty on the Thunder 350x?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, the <strong>Thunder 350x </strong> comes with a 3-year warranty,
+                            covering any manufacturing defects and offering peace of mind.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </setcion>
+    <footer id="contact">
+        <div class="footeritems">
+            <p>All Rights revserved © <span>Fardeen Beigh</span> </p>
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+       </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
